@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b4aeae">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/glrc_logo"
+        android:foregroundGravity="center_vertical|center_horizontal"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/editText"
+        android:layout_below="@+id/imageView2"
+        android:textColor="#010f2d"
+        android:gravity="center_vertical|center_horizontal"/>
+
+</RelativeLayout>

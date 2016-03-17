@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E2E2"
+    android:id="@+id/online_movie_description_layout"
+    tools:context="com.arishballana.bigcinemas.description_movie">
+
+
+        <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:textColor="#f1f6f7"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:id="@+id/video_display_layout"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:id="@+id/fullscreen_content_controls"
+                style="?metaButtonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@color/black_overlay"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="500dp"
+                android:padding="5dp"
+                android:id="@+id/poster_image"
+                android:layout_below="@+id/fullscreen_content_controls"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/look_cinemas"/>
+
+        </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:padding="5dp"
+        android:fontFamily="Ariel"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:id="@+id/movie_name_display"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:id="@+id/imageView"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/idmb_logo"
+        android:layout_below="@+id/video_display_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO IS ANYBODY THERE BCOZ I JUST HAVE TO TEST THE RESULT OUTPUT  OF THIS TEXT VIEW"
+            android:id="@+id/overview"
+            android:maxLines="10"
+            android:fontFamily="ariel"
+            android:textStyle="italic"
+            android:textColorHint="#360303"
+            android:textSize="20dp"/>
+    </ScrollView>
+
+
+</RelativeLayout>

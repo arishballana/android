@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.arishballana.bigcinemas.Data_updation"
+    tools:showIn="@layout/activity_data_updation"
+    android:id="@+id/layout_data_update"
+    android:background="#E2E2E2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MOVIES"
+        android:id="@+id/header_textView"
+        android:layout_x="105dp"
+        android:layout_y="2dp"
+        android:textAllCaps="true"
+        android:textColor="#3b5998"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NAME"
+        android:id="@+id/name_textView"
+        android:layout_x="5dp"
+        android:layout_y="50dp"
+        android:textColor="#3b5998"/>
+
+    <EditText
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_editText"
+        android:layout_x="136dp"
+        android:layout_y="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DIRECTOR"
+        android:id="@+id/director_textView"
+        android:layout_x="5dp"
+        android:layout_y="100dp"
+        android:textColor="#3b5998" />
+
+    <EditText
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/director_editText"
+        android:layout_x="136dp"
+        android:layout_y="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="WRITER"
+        android:id="@+id/writer_textView"
+        android:layout_x="5dp"
+        android:layout_y="150dp"
+        android:textColor="#3b5998"/>
+
+    <EditText
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/writer_editText"
+        android:layout_x="136dp"
+        android:layout_y="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="YEAR"
+        android:id="@+id/year_textView"
+        android:layout_x="5dp"
+        android:layout_y="200dp"
+        android:textColor="#3b5998" />
+
+    <EditText
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_editText"
+        android:layout_x="136dp"
+        android:layout_y="200dp"
+        android:inputType="number"
+        android:ems="4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rating"
+        android:id="@+id/rating_textView"
+        android:layout_x="5dp"
+        android:layout_y="250dp"
+        android:textColor="#3b5998" />
+
+<!--
+    <RadioButton
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/rating_radioButton1"
+        android:layout_x="90dp"
+        android:layout_y="250dp"
+        android:textColor="#3b5998"/>
+
+    <RadioButton
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/rating_radioButton2"
+        android:layout_x="125dp"
+        android:layout_y="250dp"
+        android:textColor="#3b5998" />
+
+    <RadioButton
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/rating_radioButton3"
+        android:layout_x="160dp"
+        android:layout_y="250dp"
+        android:textColor="#3b5998" />
+
+    <RadioButton
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/rating_radioButton4"
+        android:layout_x="195dp"
+        android:layout_y="250dp"
+        android:textColor="#3b5998" />
+
+    <RadioButton
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/rating_radioButton5"
+        android:layout_x="230dp"
+        android:layout_y="250dp"
+        android:textColor="#3b5998" />
+-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/add_movies_button"
+        android:layout_x="5dp"
+        android:layout_y="300dp"
+        android:textColor="#3b5998"
+        android:textColorHighlight="#0928f2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DONE WITH IT"
+        android:id="@+id/next_button_textView"
+        android:layout_x="5dp"
+        android:layout_y="374dp"
+        android:textColor="#3b5998"
+        android:textAlignment="center"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/ratingBar"
+        android:layout_x="100dp"
+        android:layout_y="240dp"
+        android:numStars="4"
+        android:stepSize="1"
+        android:clickable="true"/>
+
+
+
+</AbsoluteLayout>

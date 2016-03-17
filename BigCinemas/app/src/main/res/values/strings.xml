@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LookCinemas</string>
+    <string name="title_activity_data_updation">Data_updation</string>
+    <string name="title_activity_movies__list">Movies_List</string>
+
+    <string name="title_activity_tab_bar_full">tab_bar_full</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_description_movie">description_movie</string>
+</resources>
